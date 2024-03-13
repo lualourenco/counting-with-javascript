@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <title>Number Counter</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body onload="load()">
+    <header>
+        <h1>Let's Count!</h1>
+    </header>
+    <section>
+        <div id="data">
+          <p>Start: <input type="number" name="start" id="txts"></p>
+          <p>End: <input type="number" name="end" id="txte"></p>
+          <p>Steps: <input type="number" name="steps" id="txtp"></p>
+          <p><input type="button" value="Count" onclick="count()"></p>
+        </div>
+        <div id="res">
+          Preparing...
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Luana King</p>
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
